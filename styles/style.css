@@ -245,7 +245,7 @@ background-clip: text;
 
 
             .footer-container{
-                margin-top: 50px;
+                margin: 50px;
                 
                 background-color: #0B0223;
                 
@@ -266,6 +266,19 @@ background-clip: text;
         height: 30px;
             }
 
+            .footer-btn{
+                text-align: center;
+                margin: 30px ;
+
+
+            }
+
+            .footer-btn button{
+                margin: 30px;
+            }
+
+           
+
             
 
             .gamer span{
@@ -278,13 +291,36 @@ background-clip: text;
             .footer-intro{
                 margin: 20px;
                 color: #FFF;
-                font-size: 16px;
+                font-size: 13px;
                 font-weight: 300;
 
             }
 
             .footer-description{
                 text-align: center;
+            }
+
+            .terms{
+                color: #FFF;
+                display: flex;
+                justify-content: center;
+                font-size: 10px;
+                font-weight: 400;
+                padding-bottom: 10px;
+                
+            }
+
+            .terms p{
+                margin: 20px;
+            }
+
+            .copyright{
+                color: #FFF;
+                font-size: 10px;
+                font-weight: 400;
+                text-align: center;
+                
+                padding-bottom: 20px;
             }
 
         
@@ -337,7 +373,7 @@ background-clip: text;
 
         .banner-image img{
             width:90%;
-            /* margin-left: 10px; */
+            
         }
 
         
@@ -358,8 +394,11 @@ background-clip: text;
         }
     
         .instant-images{
-            width: 80%;
+            width: 60%;
             margin-left: 5px;
+        }
+        .instant-images img{
+            width: 300px;
         }
 
         .hoover-top{
