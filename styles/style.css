@@ -4,9 +4,9 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-/* body{
+body{
     max-width: 1800px;
-} */
+}
 
         /* Nav section starts */
 
@@ -108,6 +108,54 @@ background-clip: text;
 
     }
 
+                /* FUNNY-SECTION */
+    .funny-container{
+        margin-top: 100px;
+        max-width: 1500px;
+    }
+    .funny-content{
+        text-align: center;
+    }
+
+    .funny-cards{
+        display: flex;
+        justify-content:center;
+        gap: 20px;
+        
+        
+        
+        
+        
+       
+        
+        
+        
+    }
+
+    .funny-cards img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .card {
+        width: 200px;
+        
+        
+    }
+
+    .common-text{
+        color: #534C64;
+        font-size: 10px;
+        font-weight: 300px;
+    }
+
+    
+
+    
+
+    
+    
+
         
     
 
@@ -130,7 +178,7 @@ background-clip: text;
     /* responsive for small device */
 
     @media screen and (max-width:576px) {
-        .nav, .nav-item, .banner-container{
+        .nav, .nav-item, .banner-container, .funny-cards{
             flex-direction: column;
         }
         .nav-icon{
@@ -158,3 +206,14 @@ background-clip: text;
         }
         
     }
+
+    .funny-cards{
+        align-items: center;
+        gap: 5px;
+    }
+
+
+                /* Instant play section */
+
+
+                
