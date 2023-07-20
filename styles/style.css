@@ -24,6 +24,12 @@
         align-items: center;
 
     }
+    .gamer-title span{
+        color: rgba(255, 166, 0, 0.867);}
+
+    .gamer-title{
+        font-size: 40px;
+    }
 
     .nav-icon img{
         width:60px;
@@ -410,6 +416,8 @@ background-clip: text;
         .bottom-first{
             margin-left: 0;
         }
+
+        
 
         
 
